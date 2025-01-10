@@ -1,0 +1,3 @@
+@reboot /Applications/Wireshark.app/Contents/MacOS/wireshark -i en0 -k
+
+* * * * * if test -e /Path/To/netlog.pcap; then /Path/To/python3 /Path/To/NIDS.py /Path/To/netlog.pcap >> /Path/To/IPLogs/SuspiciousIP.log 2>&1; fi
