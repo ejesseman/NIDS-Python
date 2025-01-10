@@ -1,5 +1,4 @@
 # NIDS-Python
-NIDS Python
 
 ## About
 
